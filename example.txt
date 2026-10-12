@@ -1,0 +1,19 @@
+Matches
++81-070-4578-1029
++81 070 4578 1029
++8107045781029
+
+No Match
++91-070-4578-1029
++8107045781029895
++810704578
+
+
+
+| Method  | Returns               | Use Case                 |
+| ------- | --------------------- | ------------------------ |
+| =~      | index (Integer / nil) | quick check or condition |
+| .match? | true/false            | validation, conditions   |
+| .match  | MatchData object      | extract information      |
+| .scan   | array of all matches  | search/extraction        |
+| .gsub   | modified string       | replace content          |
